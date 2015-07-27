@@ -1,0 +1,13 @@
+{
+  "name": "bootstrap_player",
+  "homepage": "https://github.com/TWOUDIA/bootstrap_player",
+  "description": "An HTML5 Audio Player Skin For Twitter Bootstrap 3.",
+  "main": [
+        "css/bootstrap_player.css",
+        "js/bootstrap_player.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:TWOUDIA/bootstrap_player.git"
+    }
+  }
