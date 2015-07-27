@@ -22,15 +22,11 @@ Clone or download this repo; then open the included [`index.html`](index.html) f
 
 Works best when the player is not enclosed in too narrow a container in your page otherwise the player controls can appear jumbled. Both the seek and volume sliders are hidden on narrow (xs) viewports. A good strategy is to start "mobile-first" as usual by enclosing your audio block in a row that uses all twelve grid colums of the page's outer container in an xs viewport. Then, on wider viewports, the player can occupy fewer of the page's grid columns. See the example row widths in  [`index.html`](index.html) and the corresponding [live demo](http://playerdemo.iainhouston.com).   
 
-##### Forked from William Randol's [bootstrap-player](https://github.com/WilliamRandol/bootstrap-player)
+##### Forked from IainHouston's [bootstrap3-player] (https://github.com/iainhouston/bootstrap3_player), which also forked from William Randol's [bootstrap-player](https://github.com/WilliamRandol/bootstrap-player)
 
  -  `bootstrap-player` is great for Bootstrap 2
- -  All the functionality of William Randol's player is preserved   
- (QUnit / FuncUnit test suite in progress :waxing_crescent_moon:)
+ -  All the functionality of William Randol's player is preserved
  -  `bootstrap3_player` updates the styling of `bootstrap-player`; has fewer dependencies; uses Bootstrap 3
-
-For some info on the differences between `bootstrap-player` and `bootstrap3_player`, [see here.](CHANGES.md)
-
 
 #### <a name="screenshots">Screenshots and Live demo
 
@@ -42,6 +38,7 @@ For some info on the differences between `bootstrap-player` and `bootstrap3_play
 
 -  Audio with data - expanded ![](screenshots/bPlayer_demo_data_1.png?raw=true)
 
+#### Existing Bugs
 
-
+-  button icon rolled back to "PLAY" while changed the playing position of song (27 JUL 2015)
 
