@@ -20,7 +20,7 @@ Clone or download this repo; then open the included [`index.html`](index.html) f
 
 #### Styling caveat
 
-Works best when the player is not enclosed in too narrow a container in your page otherwise the player controls can appear jumbled. Both the seek and volume sliders are hidden on narrow (xs) viewports. A good strategy is to start "mobile-first" as usual by enclosing your audio block in a row that uses all twelve grid colums of the page's outer container in an xs viewport. Then, on wider viewports, the player can occupy fewer of the page's grid columns. See the example row widths in  [`index.html`](index.html) and the corresponding [live demo](http://playerdemo.iainhouston.com).   
+Works best when the player is not enclosed in too narrow a container in your page otherwise the player controls can appear jumbled. Both the seek and volume sliders are hidden on narrow (xs) viewports. A good strategy is to start "mobile-first" as usual by enclosing your audio block in a row that uses all twelve grid colums of the page's outer container in an xs viewport. Then, on wider viewports, the player can occupy fewer of the page's grid columns. See the example row widths in  [`index.html`](index.html) and the corresponding [live demo](http://yannicklin.net/razor/GitHub-bootstrap-player.php).   
 
 ##### Forked from IainHouston's [bootstrap3-player] (https://github.com/iainhouston/bootstrap3_player), which also forked from William Randol's [bootstrap-player](https://github.com/WilliamRandol/bootstrap-player)
 
@@ -30,13 +30,13 @@ Works best when the player is not enclosed in too narrow a container in your pag
 
 #### <a name="screenshots">Screenshots and Live demo
 
-[See a live demo](http://playerdemo.iainhouston.com)
+[See a live demo](http://yannicklin.net/razor/GitHub-bootstrap-player.php)
 
--  Audio with no additional data ![](screenshots/bPlayer_demo_data_no.png?raw=true)
+-  Audio with no additional data ![](screenshots/demo1.png?raw=true)
 
--  Audio with data - collapsed ![](screenshots/bPlayer_demo_data_0.png?raw=true)
+-  Audio with data - collapsed ![](screenshots/demo2.png?raw=true)
 
--  Audio with data - expanded ![](screenshots/bPlayer_demo_data_1.png?raw=true)
+-  Audio with data - expanded ![](screenshots/demo3.png?raw=true)
 
 #### Existing Bugs
 
